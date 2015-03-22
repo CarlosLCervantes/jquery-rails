@@ -24,6 +24,12 @@ versions of jQuery.
 
 ## Installation
 
+Add the following to your Gemfile:
+
+```ruby
+gem 'jquery-rails'
+```
+
 The jquery and jquery-ujs files will be added to the asset pipeline and available for you to use. If they're not already in `app/assets/javascripts/application.js` by default, add these lines:
 
 ```js
